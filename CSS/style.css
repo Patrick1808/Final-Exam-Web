@@ -198,3 +198,17 @@ input[type=text]:focus {
  color: var(--white);
 }
 
+@media only screen and (max-width: 600px) {
+  .light-theme {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  
+}
