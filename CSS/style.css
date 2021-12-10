@@ -9,7 +9,6 @@
   --black:       #23262E;
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
-  --transition-delay: 1s;
 }
 
 * {
@@ -28,7 +27,6 @@
   --navLinkColor:   var(--lightCoral);
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
-  transition: var(--transition-delay);
 }
 body.dark-theme {
   --navBg: var(--darkGreen);
@@ -38,7 +36,6 @@ body.dark-theme {
   --navLinkColor: var(--blueGray);
   --formBG: var(--romanSilver);
   --formInput: var(--black);
-  transition: var(--transition-delay);
 
 }
 
@@ -201,9 +198,3 @@ input[type=text]:focus {
  color: var(--white);
 }
 
-/* @media only screen and (max-width: 600px) {
-  #main {
-    display: block;
-    flex-direction: column;
-  }
-} */
