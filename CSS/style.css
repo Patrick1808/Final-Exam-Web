@@ -210,5 +210,11 @@ input[type=text]:focus {
     font-size: 3rem;
   }
 
-  
+  .message > textarea {
+    min-width: 15rem;
+  }
+
+  .contact input {
+    width: 25%;
+  }
 }
